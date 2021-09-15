@@ -1,0 +1,301 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:#127242;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 10%;
+  }
+
+  .nav {
+    background-color: transparent;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    max-width: 1000px;
+    
+  }
+
+  /* Links inside the navbar */
+.nav a {
+  float: center;
+  display: block;
+  color: #0f0707;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+  .nav__links {
+    list-style: none;
+    display: inline-flex;
+  }
+
+  .nav__links li {
+    padding: 0px 20px;
+  }
+
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav__links li a:hover {
+    color: #aaaaaa;
+  }
+  .start{
+    text-align:center;
+  }
+  .container{
+    
+    margin: auto;
+    max-width:1200px;
+    padding: 0 20px;
+    justify-content:space-between;
+  }
+  
+  .title1{
+    background-color: #000000;
+    color:rgb(161, 216, 199);
+    font-family:'Quicksand',sans-serif;
+    letter-spacing:2px;
+    font-size:40px;
+  
+  }
+  .title2{
+    color:green;
+    font-family:'Quicksand',sans-serif;
+    font-size:40px;
+    font-weight:bold;
+  }
+  .introduce{
+    color:green;
+    font-family:'Quicksand',sans-serif;
+    line-height: 1.5;
+    font-size:17px;
+  
+  }
+  .jotform-icon{
+    background-image:url("https://files.startupranking.com/startup/thumb/37832_dd0dcdb7463391d8ee4a9b7468e9f5aa930e359e_jotform_m.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-bottom:70px;
+  }
+  .button{
+    padding:12px 17px;
+    border-radius:5px;
+    border:0;
+    font-family:'Quicksand',sans-serif;
+    font-weight:bold;
+    background-color:rgb(46, 45, 45);
+    font-size:100%;
+    letter-spacing:0.5px;
+    margin-top:5px;
+  }
+  .title3{
+    
+    font-family:'Quicksand',sans-serif;
+    font-size:40px;
+    text-align:center;
+    margin-top:90px;
+  }
+  .icon1-img{
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:120px;
+    height:120px;
+  }
+  
+  .icon-description{
+    display: block;
+    text-align:center;
+    font-family:'Quicksand',sans-serif;
+    color:#000000b3;
+    font-weight:500;
+    font-size:15px;
+  }
+  
+  .icon-list{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .three-icon{
+    flex:1;
+    padding:30px;
+  }
+  .icon-title{
+    font-family:'Quicksand',sans-serif;
+  }
+  .page2{
+    text-align:center;
+  }
+  .page3{
+    background-color:#127242;
+  
+  }
+  .page3-box{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding: 20px 0;
+  }
+  .page3-img{
+    max-width:540px;
+    width:100%;
+    
+  }
+  .information{
+    flex:1;
+    padding-left:70px;
+  }
+  button.learn-more{
+    background-color:#292b2c;
+    color:white;
+  }
+  .info-title{
+    font-family:'Quicksand',sans-serif;
+    font-size:30px;
+    font-weight:bold;
+  }
+  .info-all{
+    color:#000000b3;
+    margin-bottom:20px;
+    line-height:1.4;
+    font-size:17px;
+  
+  }
+  .get-free{
+     background-color:#292b2c;
+    color:white;
+  }
+  .memberships{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .member{
+  flex:auto;
+  padding:60px;
+  text-align:center;  
+  font-family:'Quicksand',sans-serif;
+  border-radius:4px;
+  }
+  span{
+    font-size:40px;
+  
+  }
+  .mem-title{
+    font-size:26px;
+    font-weight:bold;
+  }
+  .page4{
+    padding:80px 0;
+  }
+  .under{
+    background-color:#127242;
+    padding:10px;
+    display:flex;
+  }
+   .under .container{
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:space-between;
+     width:100%;
+    } 
+  .copy{
+   font-family: 'Work Sans', sans-serif;
+  }
+  .facebook{
+    background-image:url("https://i.ibb.co/x6n6DNV/facebook-logo-button.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:30px;
+    height:30px;
+  }
+  .sos-med{
+    display:flex;
+    justify-content:space-between;
+    width:100px;
+  }
+  .twitter{
+     background-image:url("https://i.ibb.co/wzstzsd/twitter.png");
+     background-repeat:no-repeat;
+    background-size:cover;
+    width:30px;
+    height:30px;
+  }
+  .linkedin{
+    background-image:url("https://i.ibb.co/9T8kqqb/linkedin-logo-button.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:30px;
+    height:30px;
+  }
+  .signup-form {
+    background-color:#127242;
+    text-align:center;
+    margin: 30;
+    padding: 0;
+    width:100%;
+  }
+  .signup-form-form {
+    background-color:#127242;
+    padding:20px 0;
+    text-align:center;
+    width:100%;
+  }
+
+  .containerboh {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 45%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  div {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+  }
+  .warning {
+    background-color: #e2e220;
+    
+  }
+  
+
+  @media (max-width: 840px) {
+    .information {
+      padding-left: 0;
+      text-align: center;
+    }
+    .page3-box {
+      justify-content: center;
+    }
+  }
